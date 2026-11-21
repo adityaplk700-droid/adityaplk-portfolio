@@ -52,7 +52,3 @@ The website was deployed using Amazon Web Services.
 3.	Configured an Amazon CloudFront distribution with the S3 origin.
 4.	Enabled HTTPS access through CloudFront.
 5.	Published the website using the CloudFront distribution domain name.
-
-About Me
-I am Aditya Praseeda Ligil Kattippura, a B.Tech Mechatronics Engineer specializing in Artificial Intelligence, Robotics, and IoT. My interests include Cloud Computing, Software Development, Embedded Systems, Artificial Intelligence, and emerging technologies.
-I enjoy developing practical technology solutions and exploring cloud platforms to build and deploy applications.
