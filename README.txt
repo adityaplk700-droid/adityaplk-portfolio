@@ -1,26 +1,58 @@
-ADITYA PLK — ONE-PAGE ONLINE RESUME
+Aditya PLK | Personal Portfolio Website
+A responsive personal portfolio website developed to showcase my professional experience, technical skills, academic background, certifications, achievements, and projects.
+The website is built using HTML, CSS, and JavaScript and deployed on Amazon Web Services (AWS) using Amazon S3 and Amazon CloudFront.
+Live Website
 
-Contents
-- index.html: single-page resume markup and CV content
-- style.css: responsive design and print stylesheet
-- script.js: interactive career timeline, mobile navigation and print action
-- images/profile.png: headshot extracted from the supplied CV
+Project Overview
+This project demonstrates the development and deployment of a personal portfolio website using frontend technologies and AWS cloud infrastructure. It provides a central platform to showcase my technical background, professional experience, and projects in Mechatronics Engineering, Artificial Intelligence, Robotics, IoT, and Cloud Computing.
+Technologies Used
+Frontend:
+•	HTML5
+•	CSS3
+•	JavaScript
+•	Responsive Web Design
 
-RUN LOCALLY
-Open index.html in a modern browser. Keep the images folder beside index.html.
+AWS Cloud Services:
+•	Amazon S3: Used to store and host static website files.
+•	Amazon CloudFront: Used as a Content Delivery Network (CDN) to distribute website content through AWS edge locations.
+•	AWS WAF: Web application firewall protection integrated with CloudFront, if enabled and configured.
 
-AWS DEPLOYMENT LATER
-This is a static website (HTML, CSS, JavaScript and an image), so it can be hosted without a server:
-1. Create an Amazon S3 bucket for the website files.
-2. Upload index.html, style.css, script.js and the images/ folder, preserving this structure.
-3. For a production public website, put Amazon CloudFront in front of the S3 bucket using Origin Access Control; keep the bucket private and configure the default root object as index.html.
-4. Add a domain and HTTPS certificate through Route 53 / AWS Certificate Manager if desired.
-5. Update the CloudFront distribution whenever you publish changed files (invalidate the cache if needed).
+AWS Architecture
+The website follows a static website hosting architecture using Amazon S3 and Amazon CloudFront.
+1.	Website files are uploaded and stored in an Amazon S3 bucket.
+2.	Amazon CloudFront is configured to distribute website content.
+3.	Visitors access the website through the CloudFront distribution URL.
+4.	CloudFront delivers the requested content from the S3 origin.
 
-For a quick test you can use S3 static website hosting, but the recommended production pattern is private S3 + CloudFront. AWS configuration, permissions, domain and billing are not created by these files.
+Key Features To Showcase:
+•	Professional introduction and profile section.
+•	Technical skills and technology stack.
+•	Professional experience and internship details.
+•	Academic qualifications.
+•	Projects and technical achievements.
+•	Certifications and awards.
+•	Responsive design for desktop and mobile devices.
+•	Interactive navigation and career timeline.
 
-EDITING
-Edit the content in index.html. Replace images/profile.png to change the portrait. Change the design in style.css. The Print button opens the browser print dialog; choose Save as PDF.
+Project Structure
+aditya-personal-portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│   └── profile.png
+│
+└── README.md
 
-CONTENT NOTE
-Resume content is based on the uploaded CV. Verify all dates and details before publishing. The 30% BLE metric is reproduced from the CV.
+Deployment Process
+The website was deployed using Amazon Web Services.
+1.	Developed the portfolio website using HTML, CSS, and JavaScript.
+2.	Uploaded the static website files to Amazon S3.
+3.	Configured an Amazon CloudFront distribution with the S3 origin.
+4.	Enabled HTTPS access through CloudFront.
+5.	Published the website using the CloudFront distribution domain name.
+
+About Me
+I am Aditya Praseeda Ligil Kattippura, a B.Tech Mechatronics Engineer specializing in Artificial Intelligence, Robotics, and IoT. My interests include Cloud Computing, Software Development, Embedded Systems, Artificial Intelligence, and emerging technologies.
+I enjoy developing practical technology solutions and exploring cloud platforms to build and deploy applications.
